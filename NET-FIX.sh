@@ -23,5 +23,5 @@ service networking restart 2>&1 >/dev/null
 service network-manager restart 2>&1 >/dev/null
 service Networking restart 2>&1 >/dev/null
 service NetworkManager restart 2>&1 >/dev/null
-echo " Network fixed from monitor mode not allowing connection " 2>&1 >/dev/null
+echo "Network fixed from monitor mode not allowing connection" 2>&1 >/dev/null
 read -p "Press enter to exit" 2>&1 >/dev/null
